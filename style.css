@@ -1,0 +1,190 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Maven Pro;
+
+
+ }
+ html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+
+ }
+ #main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0px 150px;
+    padding-top: 150px;
+    background-color: #f4f3ee
+    
+
+ }
+#left{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-bottom: 50px;
+
+
+}
+#right{
+    /* background-color: beige; */
+    height: 100%;
+    width: 30%;
+    position: relative;
+
+
+}
+#left h1{
+    font-size: 60px;
+    font-family: Maven Pro;
+    line-height: 60px;
+    font-weight: 100;
+
+}
+#bottom-left{
+    /* background-color: rgba(159, 221, 210, 0.392); */
+    /* height: 50%; */
+    width: 100%;
+}
+#colors{
+    /* background-color: rgb(9, 82, 82); */
+    width: fit-content;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 3px;
+    
+
+
+}
+#colors h5{
+    margin-right: 10px;
+    font-weight: 400;
+}
+#color1{
+    height: 10px;
+    width: 10px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-right: 2px;
+    
+
+
+}
+#color2{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(51, 29, 1);
+border-radius: 50%;
+}
+#left h2{
+     margin-top: 50px;
+     font-size: 30px;
+     font-family: Maven Pro;
+     margin-bottom: 10px;
+}
+#left p{
+    font-size: 13px;
+    width: 100%;
+    font-weight: 200;
+    font-family: Maven Pro;
+    color: #444;
+}
+#right-top{
+    height: 10%;
+    width: 100%;
+    /* background-color: darkred; */
+    display: flex;
+    justify-content: space-between; 
+    font-family: Maven Pro;
+    padding-right: 20px;
+
+}
+#right-top h4{
+    font-size: 30px;
+    font-weight: 600 ;
+
+}
+#right-top h5{
+    font: size 30px; 
+    
+
+}
+#right-top h5 i{
+    color: goldenrod;
+}
+#right img{
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+}
+#black-gola{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position:absolute;
+    right: -16%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    top: 38%;
+    color: aliceblue;
+}
+#black-gola h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+#rotate-right{
+    position: absolute;
+    left: -40px;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 35px;
+    font-weight: 600;
+    bottom: -30px;
+} 
+nav {
+    /* background-color: rgb(114, 10, 10); */
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size-adjust: initial;
+    font-weight: 1000;
+    background-color: #cccaca
+  }
+  nav i {
+    border-radius: 25%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  #rightnav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* font-size-adjust: initial; */
+    font-weight: 1000;
+  }
